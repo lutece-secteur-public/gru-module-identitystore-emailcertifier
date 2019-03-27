@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd" >
+
+    <!-- Certifier -->
+    <bean id="identitystore-emailcertifier.certifier" class="fr.paris.lutece.plugins.identitystore.modules.emailcertifier.service.certifier.EmailCertifier" >
+        <constructor-arg type="java.lang.String" value = "emailcertifier"/>
+        <constructor-arg type="java.lang.Boolean" value = "false"/>
+        <property name="name" value="Email Certifier" />
+        <property name="description" value="Certificateur d'email utilisé lors de la validation de compte" />
+        <property name="certificateLevel" value="3" />
+        <property name="expirationDelay" value="-1" />
+        <property name="iconUrl" value="images/admin/skin/plugins/identitystore/modules/emailcertifier/emailcertifier.png" />
+        <property name="certifiableAttributesList">
+            <list>
+                <value>email</value>
+            </list>
+        </property>
+        <property name="idDemandType" value="404" />
+        <property name="idCloseCrmStatus" value="1" />
+        <property name="idCloseDemandStatus" value="1" />
+        <property name="demandPrefix" value="EMAILC" />
+        <property name="notificationService">
+            <ref bean="identitystore-grucertifier.lib-notifygru.notificationService"/>
+        </property>
+    </bean>
+
+</beans>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><plug-in>
+    <name>identitystore-emailscertifier</name>
+    <class>fr.paris.lutece.plugins.identitystore.modules.emailcertifier.IdentityStoreEmailCertifierPlugin</class>
+    <version>1.0.0-SNAPSHOT</version>
+    <documentation/>
+    <installation/>
+    <changes/>
+    <user-guide/>
+    <description>module.identitystore.emailcertifier.module.description</description>
+    <provider>module.identitystore.emailcertifier.module.provider</provider>
+    <provider-url>http://dev.lutece.paris.fr</provider-url>
+    <icon-url>images/admin/skin/plugins/identitystore/modules/emailcertifier/emailcertifier.png</icon-url>
+    <copyright>Copyright (c) 2017 Mairie de Paris</copyright>
+    
+    <!-- if the plugin must have a connection pool with parameter : 1 - yes, 0 - no -->
+    <db-pool-required>0</db-pool-required>
+    
+</plug-in>
