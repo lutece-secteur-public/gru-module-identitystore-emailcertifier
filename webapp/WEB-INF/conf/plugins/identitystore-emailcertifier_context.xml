@@ -7,7 +7,7 @@
     <!-- Certifier -->
     <bean id="identitystore-emailcertifier.certifier" class="fr.paris.lutece.plugins.identitystore.modules.emailcertifier.service.certifier.EmailCertifier" >
         <constructor-arg type="java.lang.String" value = "emailcertifier"/>
-        <constructor-arg type="java.lang.Boolean" value = "false"/>
+        <constructor-arg type="java.lang.boolean" value = "false"/>
         <property name="name" value="Email Certifier" />
         <property name="description" value="Certificateur d'email utilisé lors de la validation de compte" />
         <property name="certificateLevel" value="3" />
