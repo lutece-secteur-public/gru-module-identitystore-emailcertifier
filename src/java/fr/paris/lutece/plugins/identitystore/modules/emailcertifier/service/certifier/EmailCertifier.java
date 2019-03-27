@@ -65,6 +65,14 @@ public class EmailCertifier extends GruCertifier
     }
 
     /**
+     * @param strCode
+     */
+    public EmailCertifier(String strCode, boolean bSendNotification)
+    {
+        super( strCode, bSendNotification );
+    }
+
+    /**
      * {@inheritDoc}
      */
     @Override
