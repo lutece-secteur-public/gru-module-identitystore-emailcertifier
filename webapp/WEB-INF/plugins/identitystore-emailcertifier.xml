@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><plug-in>
-    <name>identitystore-emailscertifier</name>
+    <name>identitystore-emailcertifier</name>
     <class>fr.paris.lutece.plugins.identitystore.modules.emailcertifier.IdentityStoreEmailCertifierPlugin</class>
     <version>1.0.0-SNAPSHOT</version>
     <documentation/>
