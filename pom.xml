@@ -55,8 +55,8 @@
 
     <properties>
         <componentName>identitystore-emailcertifier</componentName>
-        <jiraProjectName>IDSTOREemail</jiraProjectName>
-        <jiraComponentId>1XXXX</jiraComponentId>
+        <jiraProjectName>IDEMAILCER</jiraProjectName>
+        <jiraComponentId>15351</jiraComponentId>
     </properties>
     
     <scm>
