@@ -15,7 +15,7 @@
         <property name="iconUrl" value="images/admin/skin/plugins/identitystore/modules/emailcertifier/emailcertifier.png" />
         <property name="certifiableAttributesList">
             <list>
-                <value>email</value>
+                <value>login</value>
             </list>
         </property>
         <property name="idDemandType" value="404" />
