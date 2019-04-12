@@ -60,9 +60,9 @@
     </properties>
     
     <scm>
-        <connection>xx</connection>
-        <developerConnection>scmxx</developerConnection>
-        <url>xx</url>
+        <connection>scm:git:https://github.com/lutece-secteur-public/gru-module-identitystore-emailcertifier.git</connection>
+        <developerConnection>scm:git:https://github.com/lutece-secteur-public/gru-module-identitystore-emailcertifier.git</developerConnection>
+        <url>https://github.com/lutece-secteur-public/gru-module-identitystore-emailcertifier.git</url>
         <tag>HEAD</tag>
     </scm>
     
